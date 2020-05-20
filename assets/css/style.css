@@ -1053,7 +1053,8 @@ header {
       .kr-adv_item-text .title {
         font-size: 18px;
         line-height: 18px;
-        font-weight: 700; }
+        font-weight: 700;
+        margin-bottom: 5px; }
       .kr-adv_item-text .description {
         width: 100%;
         font-size: 18px;
@@ -2162,8 +2163,12 @@ header {
         width: 40px; }
     .kr-adv_item-text {
       padding: 0 10px; }
-      .kr-adv_item-text .title, .kr-adv_item-text .description {
-        font-size: 14px; }
+      .kr-adv_item-text .description {
+        font-size: 14px;
+        line-height: 14px; }
+      .kr-adv_item-text .title {
+        font-size: 14px;
+        margin-bottom: 0; }
   .kr-table {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -2436,11 +2441,14 @@ header {
         -ms-flex-positive: 1;
             flex-grow: 1;
     padding-left: 10px;
+    padding-right: 0;
     -webkit-flex-basis: 60%;
         -ms-flex-preferred-size: 60%;
             flex-basis: 60%; }
   .service-table tr th:nth-child(2) {
     margin-right: 0;
+    padding-left: 0;
+    padding-right: 30px;
     white-space: normal;
     min-width: 10px; }
   .service-table tr th:nth-child(3) {
@@ -2455,12 +2463,15 @@ header {
           -ms-flex-positive: 1;
               flex-grow: 1;
       padding-left: 10px;
+      padding-right: 0;
       -webkit-flex-basis: 60%;
           -ms-flex-preferred-size: 60%;
               flex-basis: 60%;
       line-height: 14px; }
     .service-table tr td:nth-child(2) {
       margin-right: 0;
+      padding-left: 3px;
+      padding-right: 0;
       white-space: normal;
       min-width: 10px; }
     .service-table tr td:nth-child(3) {
@@ -2489,10 +2500,15 @@ header {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 10px;
     height: 60px; }
+    .service-table_footer-btn a {
+      display: block;
+      line-height: 12px !important; }
+      .service-table_footer-btn a::after {
+        display: none; }
     .service-table_footer-pay {
-      margin-right: 20px;
+      margin-right: 10px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -2507,12 +2523,17 @@ header {
         line-height: 11px;
         font-weight: 500;
         color: #bdc1c5;
-        margin-bottom: 10px; }
+        margin-bottom: 5px;
+        text-align: center; }
       .service-table_footer-pay > div {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
       .service-table_footer-pay__item {
         display: -webkit-box;
         display: -webkit-flex;
@@ -2522,11 +2543,14 @@ header {
         -webkit-align-items: center;
             -ms-flex-align: center;
                 align-items: center;
-        margin-right: 20px; }
+        margin-right: 10px; }
         .service-table_footer-pay__item:last-child {
           margin-right: 0; }
         .service-table_footer-pay__item img {
           max-height: 20px; }
+  .kr-about_item p {
+    font-size: 14px;
+    line-height: 15px; }
   .kr-master_item {
     margin: 0 auto;
     margin-top: 55px;
