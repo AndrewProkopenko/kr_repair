@@ -613,7 +613,7 @@ header {
       color: #fbe947; }
 
 .tvm-banner {
-  background-color: #ff9000;
+  background-color: #f3f3f3;
   color: black;
   margin-top: 80px; }
   .tvm-banner_text {
@@ -625,9 +625,9 @@ header {
       font-weight: 700;
       font-family: "Montserrat", sans-serif !important;
       white-space: nowrap;
-      color: #fff; }
+      color: black; }
       .tvm-banner_text h1 span {
-        color: #000; }
+        color: #ff9000; }
     .tvm-banner_text .tool {
       display: -webkit-box;
       display: -webkit-flex;
@@ -656,21 +656,21 @@ header {
         max-width: 56px;
         max-height: 56px;
         padding: 8px;
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgba(77, 77, 77, 0.5);
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg); }
         .tvm-banner_text .tool .image::after {
           content: '';
           position: absolute;
-          top: 0;
+          top: -1px;
           right: -10px;
           -webkit-transform: rotate(-45deg);
               -ms-transform: rotate(-45deg);
                   transform: rotate(-45deg);
           width: 18px;
           height: 2px;
-          background: #fff; }
+          background: #8b8b8b; }
         .tvm-banner_text .tool .image svg {
           -webkit-transform: rotate(-45deg);
               -ms-transform: rotate(-45deg);
@@ -689,14 +689,14 @@ header {
       font-size: 20px;
       font-weight: 700;
       margin: 0;
-      color: #fff; }
+      color: black; }
       .tvm-banner_text-form p .timer {
         display: inline;
         font-size: 20px;
         font-weight: 700; }
     .tvm-banner_text-form span {
       display: inline-block;
-      color: #fff;
+      color: black;
       font-size: 12px;
       line-height: 12px; }
     .tvm-banner_text-form .tvm-form {
@@ -1393,6 +1393,12 @@ header {
       font-size: 16px;
       line-height: 16px;
       margin: 0; }
+      .kr-about_item p .logo {
+        display: inline-block;
+        font-weight: 800; }
+        .kr-about_item p .logo b {
+          font-weight: 800;
+          color: #ff9000; }
 
 .kr-master {
   margin-top: 100px; }
@@ -2867,6 +2873,22 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
+    .tvm-banner_text h1 {
+      color: #fff; }
+      .tvm-banner_text h1 span {
+        color: #000; }
+    .tvm-banner_text .tool .image {
+      background-color: rgba(255, 255, 255, 0.2); }
+      .tvm-banner_text .tool .image::after {
+        background: white; }
+    .tvm-banner_text-form p {
+      color: white; }
+      .tvm-banner_text-form p .timer {
+        display: inline;
+        font-size: 20px;
+        font-weight: 700; }
+    .tvm-banner_text-form span {
+      color: white; }
     .tvm-banner_image {
       background-image: url(../images/main2.png);
       margin-top: 100px;
