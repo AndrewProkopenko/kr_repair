@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="electro-header_logo__text">
                                     <div><span>South</span>-Master</div>
-                                    <div>Ремонт бытовой техники в Краснодаре</div>
+                                    <div>Ремонт бытовой техники в <span class="city-select"></span></div>
                                 </div>
                             </a>
                             <button class="navbar-toggler js-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,10 +75,9 @@
                                         <div class="electro-header_collapse__tools-select">
                                             <label >Ваш город:</label>
                                             <select  id="yourcity">
-                                                <option>Краснодар</option> 
-                                                <!-- <option>Ростов</option>
-                                                <option>Анапа</option>
-                                                <option>Сочи</option>  -->
+                                                <option selected value="krasnodar">Краснодар</option> 
+                                                <option value="rostov">Ростов</option> 
+                                                <option value="volgograd">Волгоград</option> 
                                             </select> 
                                         </div>
                                         <div class="electro-header_collapse__tools-phone">
@@ -113,781 +112,782 @@
     </header> 
     <!-- header end -->
 
-    <!-- main screen start-->
-    <div class="tvm-banner">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6"> 
-                    <div class="tvm-banner_text">
-                        <h1>Ремонт бытовой техники<br>
-                            <span>в Краснодаре</span>
-                        </h1> 
-                        <div class="tool">
-                            <div class="image">
-                                <svg>
-                                    <use xlink:href="#tools"></use>
-                                </svg> 
-                            </div>
-                            <p>
-                                Починим вашу технику уже сегодня у Вас на дому с гарантией до 3 лет
-                            </p>
-                        </div>
-                        <div class="tvm-banner_text-form">
-                            <p>Бесплатная диагностика поломки до конца <span class="timer">месяца</span></p>
-                            <form action="#" name="banner">
-                                <div class="tvm-form"> 
-                                    <input type="tel" name="tel" placeholder="Укажите Ваш номер телефона">
-                                    <div class="btn-custom">
-                                        <button type="submit">
-                                            Оставить заявку 
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <span>Нажимая на кнопку "Оставить заявку", Вы соглашаетесь на обработку  даных</span>
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-6"> 
-                    <div class="tvm-banner_image"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>  
-    <!-- main screen end-->
-
-    <!-- SALE start -->
-    <div class="container">
-        <div class="kr-sale">
-            <div class="row">
-                <div class="col-4">
-                    <div class="kr-sale_image"></div>
-                </div>
-                <div class="col-12 col-lg-8">
-                    <div class="kr-sale_item">
-                        <h3>
-                            Скидка 20% на ремонт бытовой техники до конца <span class="timer">месяца</span>
-                        </h3>
-                        <div class="tvm-banner_text-form">
-                            <p>Оставьте заявку чтобы успеть сэкономить</p>
-                            <form action="#" name="sale">
-                                <div class="tvm-form"> 
-                                    <input type="tel" name="tel" placeholder="Ваш телефон">
-                                    <div class="btn-custom">
-                                        <button type="submit">
-                                            Получить скидку 
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <span>Нажимая на кнопку "Получить скидку" - вы даете согласие на обработку персональных даных</span>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- SALE end -->
-
-    <!-- service start -->
-    <div class="container">
-        <div id="service"></div>
-        <div class="kr-service heading">
-            <h3>
-                Наши услуги
-            </h3>
-            <div class="row">
-                <div class="col-12 col-lg-4 ">
-                    <div class="kr-service_item-1"></div>
-                    <div class="kr-service_item "> 
-                        <div class="title">Ремонт холодильников</div>
-                        <div class="image" style="background-image: url(assets/images/service1.png); height: 288px;"></div>
-
-                        <div class="hover-block js-modal-btn">
-                            <a href="/">
-                                <div class="title">
-                                    Ремонт холодильников любой сложности
-                                </div>
-                                <div class="description">
-                                    Устраняем распространенные неполадки в холодильниках на дому в течение нескольких часов. Чиним незакрывающиеся двери, ставим новые лампочки и ремонтируем элементы управления Проводим плановое обслуживание холодильного оборудования. Заменяем хладагент. 
-                                </div>
-    
-                                <div class="hover-block-btn">
-                                    <span>
-                                        Заказать ремонт
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-12 col-lg-4">
-                    <div class="kr-service_item">
-                        <div class="title">Ремонт посудомоечных машин</div>
-                        <div class="image" style="background-image: url(assets/images/service2.png); height: 240px;"></div>
-
-                        <div class="hover-block js-modal-btn">
-                            <a href="/">
-                                <div class="title">
-                                    Ремонт посудомоечных машин любой сложности
-                                </div>
-                                <div class="description">
-                                    Профессионально чиним посудомоечные машины различных брендов, включая Hansa, Bosch и Electrolux. Опыта мастеров хватает, чтобы быстро и качественно устранить любую поломку, будь то выход из строя нагревательных элементов или физические поломки внешних частей устройства.
-
-                                </div>
-    
-                                <div class="hover-block-btn">
-                                    <span>
-                                        Заказать ремонт
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="kr-service_item-2"></div>
-                    <div class="kr-service_item">
-                        <div class="title">Ремонт стиральных машин</div>
-                        <div class="image" style="background-image: url(assets/images/service3.png); height: 250px;"></div>
-
-                        <div class="hover-block js-modal-btn">
-                            <a href="/">
-                                <div class="title">
-                                    Ремонт стиральных машин любой сложности
-                                </div>
-                                <div class="description">
-                                    Быстро ремонтируем как популярные, так и относительно редкие стиральные машины. Выполняем все работы на дому у клиента, с соблюдением высоких стандартов качества. Несмотря на высокую скорость и работу в полевых условиях, гарантируем стопроцентный результат.
-
-                                </div>
-    
-                                <div class="hover-block-btn">
-                                    <span>
-                                        Заказать ремонт
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- service end -->
-
-    <!-- district block start  -->
-    <div class="kr-district">
+    <main>
+        <!-- main screen start-->
+        <div class="tvm-banner">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="kr-district_text heading">
-                            <h3>
-                                Лучшие сервисные центра Южного <br> федерального округа!
-                            </h3>
+                    <div class="col-12 col-lg-6"> 
+                        <div class="tvm-banner_text">
+                            <h1>Ремонт бытовой техники<br>
+                                <span class="city-select">в </span>
+                            </h1> 
+                            <div class="tool">
+                                <div class="image">
+                                    <svg>
+                                        <use xlink:href="#tools"></use>
+                                    </svg> 
+                                </div>
+                                <p>
+                                    Починим вашу технику уже сегодня у Вас на дому с гарантией до 3 лет
+                                </p>
+                            </div>
                             <div class="tvm-banner_text-form">
-                                <p>Работаем на совесть, отвечаем за результат!</p>
-                                <form action="#" name="district">
+                                <p>Бесплатная диагностика поломки до конца <span class="timer">месяца</span></p>
+                                <form action="#" name="banner">
                                     <div class="tvm-form"> 
-                                        <input type="tel" name="tel" placeholder="Ваш номер телефона">
+                                        <input type="tel" name="tel" placeholder="Укажите Ваш номер телефона">
                                         <div class="btn-custom">
                                             <button type="submit">
-                                                Оставить заявку на ремонт
+                                                Оставить заявку 
                                             </button>
                                         </div>
                                     </div>
                                 </form>
-                                <span>Нажимая на кнопку "Оставить заявку на ремонт", Вы соглашаетесь на обработку Ваших даных</span>
+                                <span>Нажимая на кнопку "Оставить заявку", Вы соглашаетесь на обработку  даных</span>
                             </div> 
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="kr-district_image" style="background-image: url(assets/images/map.png);"></div>
+                    <div class="col-6"> 
+                        <div class="tvm-banner_image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+        <!-- main screen end-->
+    
+        <!-- SALE start -->
+        <div class="container">
+            <div class="kr-sale">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="kr-sale_image"></div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="kr-sale_item">
+                            <h3>
+                                Скидка 20% на ремонт бытовой техники до конца <span class="timer">месяца</span>
+                            </h3>
+                            <div class="tvm-banner_text-form">
+                                <p>Оставьте заявку чтобы успеть сэкономить</p>
+                                <form action="#" name="sale">
+                                    <div class="tvm-form"> 
+                                        <input type="tel" name="tel" placeholder="Ваш телефон">
+                                        <div class="btn-custom">
+                                            <button type="submit">
+                                                Получить скидку 
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <span>Нажимая на кнопку "Получить скидку" - вы даете согласие на обработку персональных даных</span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SALE end -->
+    
+        <!-- service start -->
+        <div class="container">
+            <div id="service"></div>
+            <div class="kr-service heading">
+                <h3>
+                    Наши услуги
+                </h3>
+                <div class="row">
+                    <div class="col-12 col-lg-4 ">
+                        <div class="kr-service_item-1"></div>
+                        <div class="kr-service_item "> 
+                            <div class="title">Ремонт холодильников</div>
+                            <div class="image" style="background-image: url(assets/images/service1.png); height: 288px;"></div>
+    
+                            <div class="hover-block js-modal-btn">
+                                <a href="/">
+                                    <div class="title">
+                                        Ремонт холодильников любой сложности
+                                    </div>
+                                    <div class="description">
+                                        Устраняем распространенные неполадки в холодильниках на дому в течение нескольких часов. Чиним незакрывающиеся двери, ставим новые лампочки и ремонтируем элементы управления Проводим плановое обслуживание холодильного оборудования. Заменяем хладагент. 
+                                    </div>
+        
+                                    <div class="hover-block-btn">
+                                        <span>
+                                            Заказать ремонт
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-lg-4">
+                        <div class="kr-service_item">
+                            <div class="title">Ремонт посудомоечных машин</div>
+                            <div class="image" style="background-image: url(assets/images/service2.png); height: 240px;"></div>
+    
+                            <div class="hover-block js-modal-btn">
+                                <a href="/">
+                                    <div class="title">
+                                        Ремонт посудомоечных машин любой сложности
+                                    </div>
+                                    <div class="description">
+                                        Профессионально чиним посудомоечные машины различных брендов, включая Hansa, Bosch и Electrolux. Опыта мастеров хватает, чтобы быстро и качественно устранить любую поломку, будь то выход из строя нагревательных элементов или физические поломки внешних частей устройства.
+    
+                                    </div>
+        
+                                    <div class="hover-block-btn">
+                                        <span>
+                                            Заказать ремонт
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="kr-service_item-2"></div>
+                        <div class="kr-service_item">
+                            <div class="title">Ремонт стиральных машин</div>
+                            <div class="image" style="background-image: url(assets/images/service3.png); height: 250px;"></div>
+    
+                            <div class="hover-block js-modal-btn">
+                                <a href="/">
+                                    <div class="title">
+                                        Ремонт стиральных машин любой сложности
+                                    </div>
+                                    <div class="description">
+                                        Быстро ремонтируем как популярные, так и относительно редкие стиральные машины. Выполняем все работы на дому у клиента, с соблюдением высоких стандартов качества. Несмотря на высокую скорость и работу в полевых условиях, гарантируем стопроцентный результат.
+    
+                                    </div>
+        
+                                    <div class="hover-block-btn">
+                                        <span>
+                                            Заказать ремонт
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service end -->
+    
+        <!-- district block start  -->
+        <div class="kr-district">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="kr-district_text heading">
+                                <h3>
+                                    Лучшие сервисные центра Южного <br> федерального округа!
+                                </h3>
+                                <div class="tvm-banner_text-form">
+                                    <p>Работаем на совесть, отвечаем за результат!</p>
+                                    <form action="#" name="district">
+                                        <div class="tvm-form"> 
+                                            <input type="tel" name="tel" placeholder="Ваш номер телефона">
+                                            <div class="btn-custom">
+                                                <button type="submit">
+                                                    Оставить заявку на ремонт
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <span>Нажимая на кнопку "Оставить заявку на ремонт", Вы соглашаетесь на обработку Ваших даных</span>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="kr-district_image" style="background-image: url(assets/images/map.png);"></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- district block end  -->
+    
+        <!-- advantage start -->
+        <div class="container">
+            <div id="advantage"></div>
+            <div class="kr-adv heading">
+                <h3>
+                    Что вы получаете работая с нами
+                </h3>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        
+                        <div class="kr-adv_item js-modal-btn">
+                            <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#sport"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Качество</div>
+                                    <div class="description">Предлагаем услуги высокого качества, контролируем исполнение на каждом этапе </div>
+                                </div>
+                            </a> 
+                        </div>
+                        <div class="kr-adv_item-2"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="kr-adv_item js-modal-btn">
+                           <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#protect"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Гарантию</div>
+                                    <div class="description"> До 3-х лет на все виды работ</div>
+                                </div>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="kr-adv_item-3"></div>
+                        <div class="kr-adv_item js-modal-btn">
+                           <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#wallet"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Доступные цены</div>
+                                    <div class="description">Предлагаем цены ниже чем у конкурентов</div>
+                                </div>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="kr-adv_item js-modal-btn">
+                            <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#car"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Выезд на дом</div>
+                                    <div class="description">Выезд мастера в любую точку города</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="kr-adv_item-4"></div>
+                        <div class="kr-adv_item js-modal-btn">
+                           <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#prof"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Опыт</div>
+                                    <div class="description">Более 7 лет опыта</div>
+                                </div>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4"> 
+                        <div class="kr-adv_item js-modal-btn">
+                            <a href="/">
+                                <div class="kr-adv_item-image">
+                                    <svg>
+                                        <use xlink:href="#clock"></use>
+                                    </svg>
+                                </div>
+                                <div class="kr-adv_item-text">
+                                    <div class="title">Экономия времени</div>
+                                    <div class="description">Вам не нужно приезжать к нам, мы сами к Вам приедем</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- advantage end -->
+    
+        <!-- table start -->
+       <div class="kr-table heading">
+        <div id="price"></div>
+        <div class="container">
+            <h3>Прайс-лист на услуги ремонта</h3> 
+            <div class="kr-table-block">
+                <div class="kr-table-block_head">
+                    <div class="js-table-head kr-table-block_head-item active" data-htable="1">
+                        Ремонт холодильников
+                    </div>
+                    <div class="js-table-head kr-table-block_head-item" data-htable="2">
+                        Ремонт стиральных машин
+                    </div>
+                    <div class="js-table-head kr-table-block_head-item" data-htable="3">
+                        Ремонт посудомоечных машин
+                    </div>
+                </div>
+                <div class="kr-table-block_body">
+                    <div class="service-table">
+                        <table class=" active js-table table table-striped" data-table='1'>
+                            <thead>
+                              <tr>
+                                <th scope="col">Услуга</th>
+                                <th scope="col">Цена</th> 
+                                <th scope="col">Заказ</th> 
+                              </tr>
+                            </thead>
+                            <tbody>
+                               
+                                 
+                            <tr>
+                                <td>Прочистка дренажной системы </td>
+                                <td>от 750 руб. </td>
+                                <td> <span>Заказать</span> </td>
+                            </tr>
+                                
+                             
+                              <tr>
+                                <td> Заправка фреоном    </td>
+                                <td>от 900 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Замена реле</td>
+                                <td>от 600 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Замена термостата (терморегулятора) </td>
+                                <td>от 550 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Устранение утечки хладагента</td>
+                                <td>от 700 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Устранение засора капиллярного трубопровода</td>
+                                <td>от 650  руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Ремонт платы (модуля управления) </td>
+                                <td>от 950 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td> Замена ТЭНа</td>
+                                <td>от 750 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Замена датчика температуры </td>
+                                <td>от 900 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Замена трубопровода </td>
+                                <td>от 800 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td> Мелкий ремонт</td>
+                                <td>от 400 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                              <tr>
+                                <td>Замена вентилятора обдува испарителя</td>
+                                <td>от 1000 руб.</td>
+                                <td> <span>Заказать</span> </td>
+                              </tr> 
+                               
+            
+             
+                               
+                            </tbody>
+                        </table>
+                        <table class=" js-table table table-striped" data-table='2'>
+                            <thead>
+                              <tr>
+                                <th scope="col">Услуга</th>
+                                <th scope="col">Цена</th> 
+                                <th scope="col">Заказ</th> 
+                              </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Замена фильтра сливного насоса </td>
+                                    <td>от 700 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                
+                                <tr>
+                                    <td>Замена амортизаторов </td>
+                                    <td>от 750 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена датчика уровня воды </td>
+                                    <td>от 800 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена заливного клапана </td>
+                                    <td>от 350 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена манжеты </td>
+                                    <td>от 650 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена ремня привода барабана </td>
+                                    <td>от 550 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена сетевого шнура </td>
+                                    <td>от 350 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена температурного датчика</td>
+                                    <td>от 450 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена ТЭНа </td>
+                                    <td>от 650 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена электронного модуля</td>
+                                    <td>от 750 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td> Извлечение посторонних предметов</td>
+                                    <td>от 700 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Устранение засора </td>
+                                    <td>от 450 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена помпы </td>
+                                    <td>от 700 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена ручек, петель</td>
+                                    <td>от 400 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена устройства блокировки люка (УБЛ)</td>
+                                    <td>от 750 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+                                <tr>
+                                    <td>Замена фильтра залива воды</td>
+                                    <td>от 500 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>  
+    
+                            </tbody>
+                        </table>
+                        <table class=" js-table table table-striped" data-table='3'>
+                            <thead>
+                              <tr>
+                                <th scope="col">Услуга</th>
+                                <th scope="col">Цена</th> 
+                                <th scope="col">Заказ</th> 
+                              </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Замена распылителя </td>
+                                    <td>от 280 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>
+                                <tr>
+                                    <td>Замена ТЭНа</td>
+                                    <td>от 550 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>
+                                <tr>
+                                    <td>Замена электронного модуля</td>
+                                    <td>от 800 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>
+                                <tr>
+                                    <td>Замена помпы</td>
+                                    <td>от 600 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>
+                                <tr>
+                                    <td>Замена устройства блокировки двери</td>
+                                    <td>от 700 руб. </td>
+                                    <td> <span>Заказать</span> </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+            
+                        <div class="service-table_footer">
+                            <div class="service-table_footer-btn js-table-btn">
+                                <a href=" ">Увидеть все возможные поломки</a>
+                            </div>
+                            <div class="service-table_footer-pay">
+                                <span>Возможность безналичной оплаты</span>
+                                <div>
+                                        <div class="service-table_footer-pay__item">
+                                            <img src="assets/images/pay1.png" alt="">
+                                        </div>
+                                        <div class="service-table_footer-pay__item">
+                                            <img src="assets/images/pay2.png" alt="">
+                                        </div>
+                                        <div class="service-table_footer-pay__item">
+                                            <img src="assets/images/pay3.png" alt="">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        <!-- table end -->
+    
+        <!-- about start -->
+        <div id="about"></div>
+        <div class="kr-about heading">
+            <div class="container-fluid">
+                <div class="container">
+                   <div class="row">
+                       <div class="col-12 col-lg-6">
+                           <div class="kr-about_item">
+                                <h3>
+                                    О нашей компании <br> <span class="city-select">в </span>
+                                </h3>
+                                <p>
+                                    <span class="logo"> 
+                                       <b>South</b>-Master
+                                    </span>
+                                    — это независимая группа местных мастеров, решивших использовать свой богатейший опыт, чтобы помогать жителям Южного федерального округа с ремонтом и обслуживанием бытовой техники. Недорого и быстро.
+    
+                                </p>
+                           </div> 
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!-- about end -->
+    
+        <!-- master start  -->
+        <div class="container">
+            <div class="kr-master heading">
+                <h3>
+                    Наши мастера в <span class="city-select"></span>
+                </h3>
+                <div class="row">
+                    <div class="col-12 col-sm-4">
+                        <div class="kr-master_item">
+                            <div class="image" style="background-image: url(assets/images/master1.png);"></div>
+                            <div class="text">
+                                <h6>Иван Волков</h6>
+                                <span>Стаж работы 9 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="kr-master_item">
+                            <div class="image" style="background-image: url(assets/images/master2.png);"></div>
+                            <div class="text">
+                                <h6>Эдуард Пушкарев</h6>
+                                <span>Стаж 10 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="kr-master_item">
+                            <div class="image" style="background-image: url(assets/images/master3.png);"></div>
+                            <div class="text">
+                                <h6>Анатолий Лихов</h6>
+                                <span>Стаж 6 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- master end  -->
+    
+    
+         <!-- reviews start -->  
+        <div id="review" class="review"></div>
+        <div class="kr-review heading">
+            <div class="container-fluid">
+                <div class="container"> 
+                    <div class="electro-slider">
+                        <h3>Отзывы</h3>
+                        
+                            <div class="owl-carousel owl-theme">
+                            
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                            <div class="electro-slider_item-head__title">
+                                                <h6> Валерия Демидова  </h6>
+                                                <span>17.03.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            Отличная ремонтная мастерская. В ЮФО таких мало. В сроки укладываются, чинят в целом хорошо. Выдают длительную гарантию. Явных минусов пока что не нашла
+    
+    
+                                        </div>
+                                    </div>     
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6>Кирилл Андреев</h6>
+                                                <span> 15.02.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            Ребята из этой конторы дважды чинили у меня дома холодильник. Оба раза вместе с женой остались довольны. Думаю, на юге таких приличных мастерских не много, так что всем рекомендую!
+    
+    
+                                        </div>
+                                    </div>    
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6>  Алена Волкова  </h6>
+                                                <span>02.02.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            С тех пор как переехала в округ, обращаюсь по поводу ремонта техники только в эту компанию. Соседи сказали, что лучше, чем эта, мастерской здесь не сыскать. Проверено, не врут!
+    
+    
+                                        </div>
+                                    </div>    
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6> Кристина Петрова </h6>
+                                                <span>27.01.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            Отличный сервис. Мастера — душки и большие молодцы. Явно профессионалы. До этого сколько не обращалась в местные мастерские, всегда лодыри и хамы попадались, а тут совсем иначе
+    
+                                        </div>
+                                    </div>    
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6>Анастасия Лапина</h6>
+                                                <span>23.01.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            В машинке LG перестал работать слив. Машинка выдавала на экране ошибку, сливной насос не включался. Обратилась в фирму «South-Master». В тот же день все быстро исправили. Мастер сказал, что забился тракт, все почистил, проверил, все работает. Спасибо за быструю помощь. Если что, обращусь снова.
+                                        </div>
+                                    </div>    
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6>Ольга Евгеньевна   </h6>
+                                                <span>15.01.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            Износился резиновый уплотнитель на дверце холодильника, не прилегал плотно, постоянно из-за этого намерзал снег. Пригласили мастера из вашего сервиса, он заменил резинку за считанные минуты. Теперь, если возникнут какие-то вопросы или проблемы по технике или, не дай бог, поломки, буду знать, куда обратиться.
+                                        </div>
+                                    </div>    
+                                    <div class="electro-slider_item">
+                                        <div class="electro-slider_item-head">
+                                             <div class="electro-slider_item-head__title">
+                                                <h6>   Дмитрий Блохин  </h6>
+                                                <span>12.01.2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="electro-slider_item-text">
+                                            Вышел из строя ТЭН в стиральной машине Индезит. Как потом сказал мастер, они часто выходят из строя из-за накипи. Позвонил по номеру на сайте, поговорил с менеджером, цена меня устроила. Договорились на удобное время, ТЭН заменили без проблем. Мастер еще и дельные советы дал по пользованию стиралкой. Спасибо за хорошую работу!
+                                        </div>
+                                    </div>    
+                                 
+                            
+                                
+                            </div>
+                        
                     </div>
                 </div> 
             </div>
         </div>
-    </div>
-    <!-- district block end  -->
-
-    <!-- advantage start -->
-    <div class="container">
-        <div id="advantage"></div>
-        <div class="kr-adv heading">
-            <h3>
-                Что вы получаете работая с нами
-            </h3>
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4">
-                    
-                    <div class="kr-adv_item js-modal-btn">
-                        <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#sport"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Качество</div>
-                                <div class="description">Предлагаем услуги высокого качества, контролируем исполнение на каждом этапе </div>
-                            </div>
-                        </a> 
-                    </div>
-                    <div class="kr-adv_item-2"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="kr-adv_item js-modal-btn">
-                       <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#protect"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Гарантию</div>
-                                <div class="description"> До 3-х лет на все виды работ</div>
-                            </div>
-                       </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="kr-adv_item-3"></div>
-                    <div class="kr-adv_item js-modal-btn">
-                       <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#wallet"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Доступные цены</div>
-                                <div class="description">Предлагаем цены ниже чем у конкурентов</div>
-                            </div>
-                       </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="kr-adv_item js-modal-btn">
-                        <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#car"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Выезд на дом</div>
-                                <div class="description">Выезд мастера в любую точку города</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="kr-adv_item-4"></div>
-                    <div class="kr-adv_item js-modal-btn">
-                       <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#prof"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Опыт</div>
-                                <div class="description">Более 7 лет опыта</div>
-                            </div>
-                       </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4"> 
-                    <div class="kr-adv_item js-modal-btn">
-                        <a href="/">
-                            <div class="kr-adv_item-image">
-                                <svg>
-                                    <use xlink:href="#clock"></use>
-                                </svg>
-                            </div>
-                            <div class="kr-adv_item-text">
-                                <div class="title">Экономия времени</div>
-                                <div class="description">Вам не нужно приезжать к нам, мы сами к Вам приедем</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     
-    <!-- advantage end -->
-
-    <!-- table start -->
-   <div class="kr-table heading">
-    <div id="price"></div>
-    <div class="container">
-        <h3>Прайс-лист на услуги ремонта</h3> 
-        <div class="kr-table-block">
-            <div class="kr-table-block_head">
-                <div class="js-table-head kr-table-block_head-item active" data-htable="1">
-                    Ремонт холодильников
-                </div>
-                <div class="js-table-head kr-table-block_head-item" data-htable="2">
-                    Ремонт стиральных машин
-                </div>
-                <div class="js-table-head kr-table-block_head-item" data-htable="3">
-                    Ремонт посудомоечных машин
-                </div>
-            </div>
-            <div class="kr-table-block_body">
-                <div class="service-table">
-                    <table class=" active js-table table table-striped" data-table='1'>
-                        <thead>
-                          <tr>
-                            <th scope="col">Услуга</th>
-                            <th scope="col">Цена</th> 
-                            <th scope="col">Заказ</th> 
-                          </tr>
-                        </thead>
-                        <tbody>
-                           
-                             
-                        <tr>
-                            <td>Прочистка дренажной системы </td>
-                            <td>от 750 руб. </td>
-                            <td> <span>Заказать</span> </td>
-                        </tr>
-                            
-                         
-                          <tr>
-                            <td> Заправка фреоном    </td>
-                            <td>от 900 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Замена реле</td>
-                            <td>от 600 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Замена термостата (терморегулятора) </td>
-                            <td>от 550 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Устранение утечки хладагента</td>
-                            <td>от 700 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Устранение засора капиллярного трубопровода</td>
-                            <td>от 650  руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Ремонт платы (модуля управления) </td>
-                            <td>от 950 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td> Замена ТЭНа</td>
-                            <td>от 750 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Замена датчика температуры </td>
-                            <td>от 900 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Замена трубопровода </td>
-                            <td>от 800 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td> Мелкий ремонт</td>
-                            <td>от 400 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                          <tr>
-                            <td>Замена вентилятора обдува испарителя</td>
-                            <td>от 1000 руб.</td>
-                            <td> <span>Заказать</span> </td>
-                          </tr> 
-                           
-        
-         
-                           
-                        </tbody>
-                    </table>
-                    <table class=" js-table table table-striped" data-table='2'>
-                        <thead>
-                          <tr>
-                            <th scope="col">Услуга</th>
-                            <th scope="col">Цена</th> 
-                            <th scope="col">Заказ</th> 
-                          </tr>
-                        </thead>
-                        <tbody> 
-                            <tr>
-                                <td>Замена фильтра сливного насоса </td>
-                                <td>от 700 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            
-                            <tr>
-                                <td>Замена амортизаторов </td>
-                                <td>от 750 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена датчика уровня воды </td>
-                                <td>от 800 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена заливного клапана </td>
-                                <td>от 350 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена манжеты </td>
-                                <td>от 650 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена ремня привода барабана </td>
-                                <td>от 550 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена сетевого шнура </td>
-                                <td>от 350 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена температурного датчика</td>
-                                <td>от 450 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена ТЭНа </td>
-                                <td>от 650 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена электронного модуля</td>
-                                <td>от 750 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td> Извлечение посторонних предметов</td>
-                                <td>от 700 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Устранение засора </td>
-                                <td>от 450 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена помпы </td>
-                                <td>от 700 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена ручек, петель</td>
-                                <td>от 400 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена устройства блокировки люка (УБЛ)</td>
-                                <td>от 750 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-                            <tr>
-                                <td>Замена фильтра залива воды</td>
-                                <td>от 500 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>  
-
-                        </tbody>
-                    </table>
-                    <table class=" js-table table table-striped" data-table='3'>
-                        <thead>
-                          <tr>
-                            <th scope="col">Услуга</th>
-                            <th scope="col">Цена</th> 
-                            <th scope="col">Заказ</th> 
-                          </tr>
-                        </thead>
-                        <tbody> 
-                            <tr>
-                                <td>Замена распылителя </td>
-                                <td>от 280 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>
-                            <tr>
-                                <td>Замена ТЭНа</td>
-                                <td>от 550 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>
-                            <tr>
-                                <td>Замена электронного модуля</td>
-                                <td>от 800 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>
-                            <tr>
-                                <td>Замена помпы</td>
-                                <td>от 600 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>
-                            <tr>
-                                <td>Замена устройства блокировки двери</td>
-                                <td>от 700 руб. </td>
-                                <td> <span>Заказать</span> </td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
-        
-                    <div class="service-table_footer">
-                        <div class="service-table_footer-btn js-table-btn">
-                            <a href=" ">Увидеть все возможные поломки</a>
-                        </div>
-                        <div class="service-table_footer-pay">
-                            <span>Возможность безналичной оплаты</span>
-                            <div>
-                                    <div class="service-table_footer-pay__item">
-                                        <img src="assets/images/pay1.png" alt="">
-                                    </div>
-                                    <div class="service-table_footer-pay__item">
-                                        <img src="assets/images/pay2.png" alt="">
-                                    </div>
-                                    <div class="service-table_footer-pay__item">
-                                        <img src="assets/images/pay3.png" alt="">
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   </div>
-    <!-- table end -->
-
-    <!-- about start -->
-    <div id="about"></div>
-    <div class="kr-about heading">
-        <div class="container-fluid">
-            <div class="container">
-               <div class="row">
-                   <div class="col-12 col-md-6">
-                       <div class="kr-about_item">
-                            <h3>
-                                О нашей компании <br> <span>в Краснодаре</span>
-                            </h3>
-                            <p>
-                                <span class="logo"> 
-                                   <b>South</b>-Master
-                                </span>
-                                — это независимая группа местных мастеров, решивших использовать свой богатейший опыт, чтобы помогать жителям Южного федерального округа с ремонтом и обслуживанием бытовой техники. Недорого и быстро.
-
-                            </p>
-                       </div> 
-                   </div>
-               </div>
-            </div>
-        </div>
-    </div>
-    <!-- about end -->
-
-    <!-- master start  -->
-    <div class="container">
-        <div class="kr-master heading">
-            <h3>
-                Наши мастера в Краснодаре
-            </h3>
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <div class="kr-master_item">
-                        <div class="image" style="background-image: url(assets/images/master1.png);"></div>
-                        <div class="text">
-                            <h6>Иван Волков</h6>
-                            <span>Стаж работы 9 лет</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <div class="kr-master_item">
-                        <div class="image" style="background-image: url(assets/images/master2.png);"></div>
-                        <div class="text">
-                            <h6>Эдуард Пушкарев</h6>
-                            <span>Стаж 10 лет</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <div class="kr-master_item">
-                        <div class="image" style="background-image: url(assets/images/master3.png);"></div>
-                        <div class="text">
-                            <h6>Анатолий Лихов</h6>
-                            <span>Стаж 6 лет</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- master end  -->
-
-
-     <!-- reviews start --> 
-     
-     <div id="review" class="review"></div>
-    <div class="kr-review heading">
-        <div class="container-fluid">
-            <div class="container"> 
-                <div class="electro-slider">
-                    <h3>Отзывы</h3>
-                    
-                        <div class="owl-carousel owl-theme">
-                        
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                        <div class="electro-slider_item-head__title">
-                                            <h6> Валерия Демидова  </h6>
-                                            <span>17.03.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        Отличная ремонтная мастерская. В ЮФО таких мало. В сроки укладываются, чинят в целом хорошо. Выдают длительную гарантию. Явных минусов пока что не нашла
-
-
-                                    </div>
-                                </div>     
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6>Кирилл Андреев</h6>
-                                            <span> 15.02.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        Ребята из этой конторы дважды чинили у меня дома холодильник. Оба раза вместе с женой остались довольны. Думаю, на юге таких приличных мастерских не много, так что всем рекомендую!
-
-
-                                    </div>
-                                </div>    
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6>  Алена Волкова  </h6>
-                                            <span>02.02.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        С тех пор как переехала в округ, обращаюсь по поводу ремонта техники только в эту компанию. Соседи сказали, что лучше, чем эта, мастерской здесь не сыскать. Проверено, не врут!
-
-
-                                    </div>
-                                </div>    
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6> Кристина Петрова </h6>
-                                            <span>27.01.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        Отличный сервис. Мастера — душки и большие молодцы. Явно профессионалы. До этого сколько не обращалась в местные мастерские, всегда лодыри и хамы попадались, а тут совсем иначе
-
-                                    </div>
-                                </div>    
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6>Анастасия Лапина</h6>
-                                            <span>23.01.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        В машинке LG перестал работать слив. Машинка выдавала на экране ошибку, сливной насос не включался. Обратилась в фирму «South-Master». В тот же день все быстро исправили. Мастер сказал, что забился тракт, все почистил, проверил, все работает. Спасибо за быструю помощь. Если что, обращусь снова.
-                                    </div>
-                                </div>    
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6>Ольга Евгеньевна   </h6>
-                                            <span>15.01.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        Износился резиновый уплотнитель на дверце холодильника, не прилегал плотно, постоянно из-за этого намерзал снег. Пригласили мастера из вашего сервиса, он заменил резинку за считанные минуты. Теперь, если возникнут какие-то вопросы или проблемы по технике или, не дай бог, поломки, буду знать, куда обратиться.
-                                    </div>
-                                </div>    
-                                <div class="electro-slider_item">
-                                    <div class="electro-slider_item-head">
-                                         <div class="electro-slider_item-head__title">
-                                            <h6>   Дмитрий Блохин  </h6>
-                                            <span>12.01.2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="electro-slider_item-text">
-                                        Вышел из строя ТЭН в стиральной машине Индезит. Как потом сказал мастер, они часто выходят из строя из-за накипи. Позвонил по номеру на сайте, поговорил с менеджером, цена меня устроила. Договорились на удобное время, ТЭН заменили без проблем. Мастер еще и дельные советы дал по пользованию стиралкой. Спасибо за хорошую работу!
-                                    </div>
-                                </div>    
-                             
-                        
-                            
-                        </div>
-                    
-                </div>
-            </div> 
-        </div>
-    </div>
-    <!-- reviews end -->
-
+        <!-- reviews end -->
     
-    <!-- contacts start  -->
-    <div class="container-fluid position-relative">
-        <div id="contact"></div>
-        <div class="container ">
-            <div class="service-contact section">
-                <div class="row"> 
-                    <div class="col-12 col-lg-6 d-flex align-items-start">
-                        <div class="service-contact_item">
-                            <h3>Наши контакты</h3>
-                            <h5>Cвяжитесь с нами любым удобным для Вас способом</h5>
-                            <div class="tel">
-                                <svg>
-                                    <use xlink:href='#phone1'></use>
-                                </svg>
-                                <a href="tel:8(812)603-2681">8 (812) 603-2681</a>
+        
+        <!-- contacts start  -->
+        <div class="container-fluid position-relative">
+            <div id="contact"></div>
+            <div class="container ">
+                <div class="service-contact section">
+                    <div class="row"> 
+                        <div class="col-12 col-lg-6 d-flex align-items-start">
+                            <div class="service-contact_item">
+                                <h3>Наши контакты</h3>
+                                <h5>Cвяжитесь с нами любым удобным для Вас способом</h5>
+                                <div class="tel">
+                                    <svg>
+                                        <use xlink:href='#phone1'></use>
+                                    </svg>
+                                    <a href="tel:8(812)603-2681">8 (812) 603-2681</a>
+                                </div>
+                                <form action="#">
+                                    <p>Задайте нам вопрос</p>
+                                    <div class="kr-form">
+                                        <input name="name" type="text" placeholder="Ваше имя" required>
+                                        <input name="tel" type="tel" placeholder="Ваш телефон" required>
+                                        <textarea  cols="30" rows="10" placeholder="Ваш коментарий" ></textarea>
+                                    </div>
+                                    <div class="btn-custom">
+                                        <button type="submit">Отправить</button>
+                                        <span>Нажимая на кнопку "Отправить" Вы соглашаетесь на обработку Ваших данных</span>
+                                    </div>
+                                </form>
                             </div>
-                            <form action="#">
-                                <p>Задайте нам вопрос</p>
-                                <div class="kr-form">
-                                    <input name="name" type="text" placeholder="Ваше имя" required>
-                                    <input name="tel" type="tel" placeholder="Ваш телефон" required>
-                                    <textarea  cols="30" rows="10" placeholder="Ваш коментарий" ></textarea>
-                                </div>
-                                <div class="btn-custom">
-                                    <button type="submit">Отправить</button>
-                                    <span>Нажимая на кнопку "Отправить" Вы соглашаетесь на обработку Ваших данных</span>
-                                </div>
-                            </form>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-6 position-static ">
-                        <div class="map-thriangle"></div>
-                        <div class="map"></div>
+                        <div class="col-12 col-lg-6 position-static ">
+                            <div class="map-thriangle"></div>
+                            <div class="map"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    
+       <!-- contacts end  -->
+        
+    </main>
+   
     <!-- footer start -->
     <footer>
         <div class="container footer-thriangle"></div>
@@ -902,7 +902,7 @@
                         </div>
                         <div class="electro-footer_logo__text">
                             <div><span>South</span>-Master</div>
-                            <div>Ремонт бытовой техники в Краснодаре</div>
+                            <div>Ремонт бытовой техники в <span class="city-select" style="color: black !important"></span></div>
                         </div> 
                     </a>
                     <div class="electro-footer_menu"> 
@@ -1157,7 +1157,7 @@
     </svg>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/script.min.js"></script> 
-   
+  
 
 </body>
 </html>
