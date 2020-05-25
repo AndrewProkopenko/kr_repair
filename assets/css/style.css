@@ -2678,7 +2678,9 @@ header {
   .service-modal form {
     margin-top: 20px; }
   .service-modal input {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .electro-slider h3 {
+    padding-bottom: 20px !important; } }
 
 @media screen and (max-width: 400px) {
   .tvm-banner_text h1 {
