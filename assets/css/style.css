@@ -964,8 +964,10 @@ header {
     .kr-district_text .tvm-banner_text-form p {
       font-size: 18px;
       font-family: "Montserrat" !important;
-      font-weight: 500; }
+      font-weight: 500;
+      color: #fff; }
     .kr-district_text .tvm-banner_text-form span {
+      color: #fff;
       font-family: "Montserrat" !important;
       font-weight: 400; }
     .kr-district_text .tvm-banner_text-form input {
